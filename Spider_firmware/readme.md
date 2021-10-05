@@ -62,3 +62,11 @@ sudo service klipper stop
 make flash FLASH_DEVICE=0483:df11
 sudo service klipper start
 ```
+
+If it still fails:
+```
+make clean
+rm .config
+make menuconfig
+make flash FLASH_DEVICE=0483:df11
+```
