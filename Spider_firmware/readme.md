@@ -70,3 +70,5 @@ rm .config
 make menuconfig
 make flash FLASH_DEVICE=0483:df11
 ```
+
+or ```No bootloader``` in menuconfig options
