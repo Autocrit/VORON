@@ -1,0 +1,31 @@
+X
+=
+Fitted shaper 'zv' frequency = 45.8 Hz (vibrations = 1.9%, smoothing ~= 0.079)
+To avoid too much smoothing with 'zv', suggested max_accel <= 8200 mm/sec^2
+
+Fitted shaper 'mzv' frequency = 45.6 Hz (vibrations = 0.0%, smoothing ~= 0.098)
+To avoid too much smoothing with 'mzv', suggested max_accel <= 6100 mm/sec^2
+
+Fitted shaper 'ei' frequency = 54.8 Hz (vibrations = 0.0%, smoothing ~= 0.107)
+To avoid too much smoothing with 'ei', suggested max_accel <= 5600 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 68.0 Hz (vibrations = 0.0%, smoothing ~= 0.117)
+To avoid too much smoothing with '2hump_ei', suggested max_accel <= 5100 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 81.4 Hz (vibrations = 0.0%, smoothing ~= 0.124)
+To avoid too much smoothing with '3hump_ei', suggested max_accel <= 4900 mm/sec^2
+Recommended shaper is mzv @ 45.6 Hz
+
+Y
+=
+Fitted shaper 'zv' frequency = 38.8 Hz (vibrations = 17.7%, smoothing ~= 0.106)
+To avoid too much smoothing with 'zv', suggested max_accel <= 5800 mm/sec^2
+
+Fitted shaper 'mzv' frequency = 30.0 Hz (vibrations = 4.2%, smoothing ~= 0.226)
+To avoid too much smoothing with 'mzv', suggested max_accel <= 2700 mm/sec^2
+
+Fitted shaper 'ei' frequency = 35.8 Hz (vibrations = 0.9%, smoothing ~= 0.251)
+To avoid too much smoothing with 'ei', suggested max_accel <= 2400 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 39.0 Hz (vibrations = 0.0%, smoothing ~= 0.355)
+To avoid too much smoothing with '2hump_ei', suggested max_accel <= 1500 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 48.0 Hz (vibrations = 0.0%, smoothing ~= 0.356)
+To avoid too much smoothing with '3hump_ei', suggested max_accel <= 1500 mm/sec^2
+Recommended shaper is ei @ 35.8 Hz
