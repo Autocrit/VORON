@@ -41,7 +41,7 @@ ls /dev/serial/by-id
 
 Updating firmware
 ---
-Will need to run `make menuconfig` and use the settings from above
+Run `make menuconfig` and use the settings from above
 - run the following commands:
 ```
 cd ~/klipper
