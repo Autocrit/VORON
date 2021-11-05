@@ -41,6 +41,7 @@ ls /dev/serial/by-id
 
 Updating firmware
 ---
+Will need to run `make menuconfig` and use the settings from above
 - run the following commands:
 ```
 cd ~/klipper
@@ -50,25 +51,3 @@ sudo service klipper stop
 make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_200046001050563046363120-if00
 sudo service klipper start
 ```
-Updating firmware in DFU mode (jumper between BT0 and 3.3V)
-- power up
-- remove jumper
-- run the following commands:
-```
-cd ~/klipper
-make clean
-make
-sudo service klipper stop
-make flash FLASH_DEVICE=0483:df11
-sudo service klipper start
-```
-
-If it still fails:
-```
-make clean
-rm .config
-make menuconfig
-make flash FLASH_DEVICE=0483:df11
-```
-
-or ```No bootloader``` in menuconfig options
