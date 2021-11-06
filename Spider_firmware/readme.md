@@ -41,7 +41,11 @@ ls /dev/serial/by-id
 
 Updating firmware
 ---
-Run `make menuconfig` and use the settings as above
+```
+cd ~/klipper
+make menuconfig
+```
+Use the settings as above (you might have changed `Micro-controller Architecture` to `Linux proces` for example)
 ![menuconfig](./images/autocrit_menuconfig.png "menuconfig")
 - run the following commands:
 ```
