@@ -41,7 +41,8 @@ ls /dev/serial/by-id
 
 Updating firmware
 ---
-Run `make menuconfig` and use the settings from above
+Run `make menuconfig` and use the settings as above
+![menuconfig](./images/autocrit_menuconfig.png "menuconfig")
 - run the following commands:
 ```
 cd ~/klipper
