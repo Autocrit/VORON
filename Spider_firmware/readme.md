@@ -56,9 +56,10 @@ sudo service klipper stop
 make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_200046001050563046363120-if00
 sudo service klipper start
 ```
+where usb-Klipper_stm32f446xx_200046001050563046363120-if00 is obtained from `ls /dev/serial/by-id`
 
-If using Pi as a MCU run
-
+ - if using Pi as a MCU run `make menuconfig`again and set `Micro-controller Architecture` back to `Linux process`
+ - then run:
 ```
 sudo service klipper stop
 make flash
