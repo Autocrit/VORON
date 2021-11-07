@@ -45,7 +45,7 @@ Updating firmware
 cd ~/klipper
 make menuconfig
 ```
-Use the settings as above (you might have changed `Micro-controller Architecture` to `Linux proces` for example)
+Use the settings as above (you might have changed `Micro-controller Architecture` to `Linux process` for example)
 ![menuconfig](./images/autocrit_menuconfig.png "menuconfig")
 - run the following commands:
 ```
@@ -56,7 +56,7 @@ sudo service klipper stop
 make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_200046001050563046363120-if00
 sudo service klipper start
 ```
-where usb-Klipper_stm32f446xx_200046001050563046363120-if00 is obtained from `ls /dev/serial/by-id`
+where `usb-Klipper_stm32f446xx_200046001050563046363120-if00` is obtained from `ls /dev/serial/by-id`
 
  - if using Pi as a MCU run `make menuconfig`again and set `Micro-controller Architecture` back to `Linux process`
  - then run:
