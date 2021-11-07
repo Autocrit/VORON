@@ -57,6 +57,14 @@ make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_20004600105056
 sudo service klipper start
 ```
 
+If using Pi as a MCU run
+
+```
+sudo service klipper stop
+make flash
+sudo service klipper start
+```
+
 Rollback
 ---
 e.g. rollback one commit before make, make clean etc:
