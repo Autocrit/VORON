@@ -41,6 +41,12 @@ ls /dev/serial/by-id
 
 Updating firmware
 ---
+```
+cd ~/klipper
+make menuconfig
+```
+Use the settings as above (you might have changed `Micro-controller Architecture` to `Linux process` for example)
+![menuconfig](./images/autocrit_menuconfig.png "menuconfig")
 - run the following commands:
 ```
 cd ~/klipper
@@ -50,25 +56,19 @@ sudo service klipper stop
 make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_200046001050563046363120-if00
 sudo service klipper start
 ```
-Updating firmware in DFU mode (jumper between BT0 and 3.3V)
-- power up
-- remove jumper
-- run the following commands:
+where `usb-Klipper_stm32f446xx_200046001050563046363120-if00` is obtained from `ls /dev/serial/by-id`
+
+ - if using Pi as a MCU run `make menuconfig`again and set `Micro-controller Architecture` back to `Linux process`
+ - then run:
 ```
-cd ~/klipper
-make clean
-make
 sudo service klipper stop
-make flash FLASH_DEVICE=0483:df11
+make flash
 sudo service klipper start
 ```
 
-If it still fails:
+Rollback
+---
+e.g. rollback one commit before make, make clean etc:
 ```
-make clean
-rm .config
-make menuconfig
-make flash FLASH_DEVICE=0483:df11
+git reset --hard HEAD~1
 ```
-
-or ```No bootloader``` in menuconfig options
