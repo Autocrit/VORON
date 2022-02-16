@@ -20,12 +20,10 @@ git config --global user.name "username"
 git config --global user.email "you@example.com"
 ```
 
-## First commit
- - The first commit/push-to-origin is via the command line, still in *klipper_config*:
+## Pull from origin master
+ - in *~/klipper_config*:
 ```
-git add .
-git commit -m "klipper config backup - $(date -u)"
-git push -u origin master
+git pull origin master
 ```
 - It will ask for your GitHub username and password; use the access token as a password
 
