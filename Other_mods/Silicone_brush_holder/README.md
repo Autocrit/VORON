@@ -13,4 +13,4 @@ This is a work-in-progress; dimensions are approximate
 ![Silicone brush holder](./Images/silicone_brush_holder_03.jpg "Silicone brush holder")
 
 ## A video
-https://www.youtube.com/watch?v=X0o17m9FSyQ
+[![Silicone brush holder](./Images/silicone_brush_holder_06.jpg)](https://www.youtube.com/watch?v=X0o17m9FSyQ)
