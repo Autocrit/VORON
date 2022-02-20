@@ -1,16 +1,8 @@
-# Silicone brush holder
+# 6-pin Microfit 2020 holder
 
-For https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_&_Nozzle_Scrubber
+Intended to be used as a place to plug in an ADXL345 cable inside the enclosure
 
-This is a work-in-progress; dimensions are approximate
+- this is a work-in-progress
+- based on https://github.com/alchemyEngine/EnragedRabbitProject/tree/main/usermods/Skirt-Microfit-Inserts
 
-- this is the brush: https://www.dunelm.com/product/brabantia-tasty-green-pastry-brush-1000165707
-- the body is cut to 14mm and the bristles to about 4mm
-- adjust brush variables in nozzle_scrub.cfg if necessary
-![Silicone brush holder](./Images/silicone_brush_holder_05.png "Silicone brush holder")
-![Silicone brush holder](./Images/silicone_brush_holder_01.jpg "Silicone brush holder")
-![Silicone brush holder](./Images/silicone_brush_holder_02.png "Silicone brush holder")
-![Silicone brush holder](./Images/silicone_brush_holder_03.jpg "Silicone brush holder")
-
-## A video
-[![Silicone brush holder](./Images/silicone_brush_holder_06.jpg)](https://www.youtube.com/watch?v=X0o17m9FSyQ)
+![6-pin Microfit 2020 holder](./Images/6_pin_Microfit_2020_holder_01.jpg "6-pin Microfit 2020 holder")
